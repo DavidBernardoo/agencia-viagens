@@ -9,21 +9,25 @@
 </head>
 <body>
     <header>
-        <div>
-            <p>Logo</p>
+        <div class="itens-topo largura-limitada">
+            <div class="secao-topo">
+                <img src="imagens/map-marker.png">
+                <p>Logo</p>
+            </div>
+            <img src="imagens/icon-lupa.svg">
         </div>
     </header>
     <main>
         <section class="secao-banner">
-            <div class="formulario-banner">
+            <div class="banner-conteudo largura-limitada">
                 <nav>
                     <ul>
-                        <li><a href="#">Flight</a></li>
-                        <li><a href="#">Hotel</a></li>
-                        <li><a href="#">Rental</a></li>
+                        <li class="item-destaque"><img src="imagens/plane-solid.png"><a href="#">Flight</a></li>
+                        <li><img src="imagens/bed-solid.png"><a href="#">Hotel</a></li>
+                        <li><img src="imagens/car-solid.png"><a href="#">Rental</a></li>
                     </ul>
                 </nav>
-                <div>
+                <div class="formulario-banner">
                     <h1>Travel the world with us</h1>
                     <form>
                         <div class="banner-input">
@@ -41,73 +45,91 @@
                 </div>
             </div>
         </section>
-        <section class="secao-disconto">
-            <h2>Good Offers Right Now</h2>
-            <p>Up to 50% discount</p>
-            <figure class="imagem-destaque">
-                <img src="imagens/cinqueterre.jpg" alt="Cinque Terre">
-                <figcaption>Cinque Terre</figcaption>
-            </figure>
-            <div>
+        <section class="secao-desconto largura-limitada">
+            <div class="box-titulo">
+                <h2>Good Offers Right Now</h2>
+                <p>Up to <strong>50%</strong> discount</p>
+            </div>
+            <div class="imagens-desconto">
+                <figure class="imagem-destaque">
+                    <img src="imagens/cinqueterre.jpg" alt="Cinque Terre">
+                    <figcaption>Cinque Terre</figcaption>
+                </figure>
+                <div class="conjunto-imagens">
+                    <figure>
+                        <img src="imagens/newyork.jpg" alt="New York">
+                        <figcaption>New York</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="imagens/sanfran.jpg" alt="San Francisco">
+                        <figcaption>San Francisco</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="imagens/pisa.jpg" alt="Pisa">
+                        <figcaption>Pisa</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="imagens/paris.jpg" alt="Paris">
+                        <figcaption>Paris</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section class="secao-ofertas largura-limitada">
+            <div class="box-titulo">
+                <h2>Explore Nature</h2>
+                <p>Travel with us and see nature at its finest</p>
+            </div>
+            <div class="imagens-oferta">
                 <figure>
-                    <img src="imagens/newyork.jpg" alt="New York">
-                    <figcaption>New York</figcaption>
+                    <img src="imagens/ocean.jpg" alt="Ocean">
+                    <figcaption>
+                        <h3>West Coast, Norway</h3>
+                        <h4>Roundtrip from $79</h4>
+                        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <a href="#">Buy Tickets</a>
+                    </figcaption>
                 </figure>
                 <figure>
-                    <img src="imagens/sanfran.jpg" alt="San Francisco">
-                    <figcaption>San Francisco</figcaption>
-                </figure>
-                <figure>
-                    <img src="imagens/pisa.jpg" alt="Pisa">
-                    <figcaption>Pisa</figcaption>
-                </figure>
-                <figure>
-                    <img src="imagens/paris.jpg" alt="Paris">
-                    <figcaption>Paris</figcaption>
+                    <img src="imagens/mountains.jpg" alt="Mountains">
+                    <figcaption>
+                        <h3>Mountains, Austria</h3>
+                        <h4>One-way from $39</h4>
+                        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <a href="#">Buy Tickets</a>
+                    </figcaption>
                 </figure>
             </div>
         </section>
-        <section class="secao-ofertas">
-            <h2>Explore Nature</h2>
-            <p>Travel with us and see nature at its finest</p>
-            <figure>
-                <img src="imagens/ocean.jpg" alt="Ocean">
-                <figcaption>
-                    <h3>West Coast, Norway</h3>
-                    <h4>Roundtrip from $79</h4>
-                    <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                    <a href="#">Buy Tickets</a>
-                </figcaption>
-            </figure>
-            <figure>
-                <img src="imagens/mountains.jpg" alt="Mountains">
-                <figcaption>
-                    <h3>Mountains, Austria</h3>
-                    <h4>One-way from $39</h4>
-                    <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                    <a href="#">Buy Tickets</a>
-                </figcaption>
-            </figure>
-        </section>
-        <section class="secao-receba-ofertas">
-            <h2>Get the best offers first!</h2>
-            <p>Join our newsletter.</p>
+        <section class="secao-receba-ofertas largura-limitada">
+            <div class="box-titulo">
+                <h2>Get the best offers first!</h2>
+                <p>Join our newsletter.</p>
+            </div>
             <form>
                 <label>E-mail</label>
                 <input type="email" placeholder="Your Email address">
                 <button>Subscribe</button>
             </form>
         </section>
-        <section class="secao-contato">
-            <h2>Contact</h2>
-            <p>Let us book your next trip!</p>
-            <ul>
-                <li>Chicago, US</li>
-                <li>Phone: *00 151515</li>
-                <li>Email: mail@mail.com</li>
-            </ul>
+        <section class="secao-contato largura-limitada">
+            <div class="box-titulo">
+                <h2>Contact</h2>
+                <p>Let us book your next trip!</p>
+            </div>
+            <div class="maneiras-contato">
+                <div>
+                    <p>Chicago, US</p>
+                </div>
+                <div>
+                    <p>Phone: +00 151515</p>
+                </div>
+                <div>
+                    <p>Email: mail@mail.com</p>
+                </div>
+            </div>
         </section>
-        <section class="secao-mande-mensagem">
+        <section class="secao-mande-mensagem largura-limitada">
             <form>
                 <input type="text" placeholder="Name">
                 <input type="email" placeholder="Email">

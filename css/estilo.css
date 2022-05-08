@@ -1,0 +1,290 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.largura-limitada {
+    width: 80%;
+    margin: auto;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(228, 228, 228);
+}
+
+/* SECÃO TOPO */
+
+header {
+    background-color: white;
+}
+
+.itens-topo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.secao-topo {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+header img {
+    width: 22px;
+}
+
+.secao-topo img {
+    width: 18px;
+}
+
+.secao-topo p {
+    color: rgb(255, 60, 60);
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+/* SECÃO BANNER */
+
+.secao-banner {
+    display: flex;
+    background-image: url('../imagens/london.jpg');
+    background-size: cover;
+    height: 610px;
+    margin-bottom: 20px;
+}
+
+.banner-conteudo {
+    background-color: white;
+    width: 70%;
+}
+
+.banner-conteudo nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 40px;
+}
+
+.banner-conteudo ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+}
+
+.banner-conteudo li {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+    padding: 10px 10px 11px 10px;
+}
+
+.banner-conteudo img {
+    width: 15px;
+    margin-right: 15px;
+}
+
+.item-destaque {
+    background-color: rgb(255, 60, 60);
+}
+
+.item-destaque img {
+    transform: rotate(-45deg);
+}
+
+.banner-conteudo a {
+    color: white;
+    text-decoration: none;
+}
+
+.formulario-banner {
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.formulario-banner h1 {
+    font-weight: normal;
+    margin: 0 0 10px 0;
+}
+
+.banner-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.banner-input div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc(50% - 10px);
+}
+
+.banner-input input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 0px;
+}
+
+.formulario-banner button {
+    background-color: rgb(92, 92, 92);
+    color: white;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 0;
+    margin: 20px 0 10px;
+}
+
+/* SECÃO DESCONTO */
+
+.secao-desconto {
+    margin-bottom: 20px;
+}
+
+.box-titulo h2 {
+    font-weight: normal;
+    margin: 10px 0 20px;
+}
+
+.box-titulo p {
+    margin: 20px 0;
+}
+
+.imagens-desconto {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+}
+
+.imagens-desconto figure {
+    position: relative;
+}
+
+.imagens-desconto figcaption {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.imagens-desconto img {
+    object-fit: cover;
+}
+
+.imagem-destaque {
+    width: calc(50% - 10px);
+    height: 100%;
+}
+
+.imagem-destaque img {
+    width: 100%;
+    height: 100%;
+}
+
+.conjunto-imagens {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    width: calc(50% - 10px);
+}
+
+.conjunto-imagens figure {
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+}
+
+.conjunto-imagens img {
+    width: 100%;
+    height: 100%;
+}
+
+/* SECÃO OFERTAS */
+
+.imagens-oferta {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagens-oferta figure {
+    background-color: white;
+    width: calc(50% - 10px);
+    padding-bottom: 15px;
+}
+
+.imagens-oferta img {
+    width: 100%;
+}
+
+.imagens-oferta figcaption {
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+
+.imagens-oferta h3, .imagens-oferta h4, imagens-oferta p {
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.imagens-oferta h3 {
+    font-size: 22px;
+}
+
+.imagens-oferta h4 {
+    color: gray;
+}
+
+.imagens-oferta a {
+    margin-left: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+/* SECÃO RECEBA OFERTAS */
+
+.secao-receba-ofertas {
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 40px auto 20px;
+    background-color: rgb(100, 100, 100);
+    color: white;
+}
+
+.secao-receba-ofertas form {
+    display: flex;
+    flex-direction: column;
+}
+
+.secao-receba-ofertas input {
+    box-sizing: border-box;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.secao-receba-ofertas button {
+    background-color: rgb(241, 136, 136);
+    color: white;
+    width: 100px;
+    padding: 10px 20px;
+    border: 0;
+}
+
+/* SECÃO CONTATO */
+
+.maneiras-contato p {
+    margin: 5px 10px;
+}
