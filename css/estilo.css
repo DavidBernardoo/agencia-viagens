@@ -285,6 +285,65 @@ header img {
 
 /* SECÃO CONTATO */
 
+.maneiras-contato div {
+    display: flex;
+}
+
+.maneiras-contato img {
+    width: 14px;
+}
+
 .maneiras-contato p {
-    margin: 5px 10px;
+    margin: 5px 20px;
+}
+
+/* MANDE UMA MENSAGEM */
+
+.input-mande-mensagem {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.input-mande-mensagem input {
+    box-sizing: border-box;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 0;
+}
+
+.secao-mande-mensagem button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+
+footer {
+    text-align: center;
+    color: gray;
+}
+
+footer h3 {
+    font-weight: normal;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
+    width: 150px;
+    height: 100%;
+}
+
+footer img {
+    width: 16px;
+}
+
+footer p {
+    margin: 20px;
 }
